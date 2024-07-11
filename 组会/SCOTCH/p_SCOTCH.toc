@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{绪论}{2}{0}{1}
+\beamer@sectionintoc {2}{预备知识}{5}{0}{2}
+\beamer@sectionintoc {3}{SCOTCH}{10}{0}{3}
+\beamer@sectionintoc {4}{理论分析}{19}{0}{4}
+\beamer@sectionintoc {5}{实验分析}{23}{0}{5}
+\beamer@sectionintoc {6}{总结与展望}{24}{0}{6}

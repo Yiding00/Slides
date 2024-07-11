@@ -1,0 +1,119 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{wangneural}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=WB}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Benjie},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=JJ}{%
+         family={Jennings},
+         familyi={J\bibinitperiod},
+         given={Joel},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GW}{%
+         family={Gong},
+         familyi={G\bibinitperiod},
+         given={Wenbo},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WBJJGW1}
+    \strng{fullhash}{WBJJGW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{ICLR}
+    \field{title}{Neural structure learning with stochastic differential
+  equations}
+    \field{year}{2024}
+  \endentry
+
+  \entry{oksendal2003stochastic}{book}{}
+    \name{author}{2}{}{%
+      {{hash=OB}{%
+         family={{\O}ksendal},
+         familyi={{\O}\bibinitperiod},
+         given={Bernt},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=OB}{%
+         family={{\O}ksendal},
+         familyi={{\O}\bibinitperiod},
+         given={Bernt},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{OBOB1}
+    \strng{fullhash}{OBOB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Stochastic differential equations}
+    \field{year}{2003}
+  \endentry
+
+  \entry{li2020scalable}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=LX}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Xuechen},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WTKL}{%
+         family={Wong},
+         familyi={W\bibinitperiod},
+         given={Ting-Kam\bibnamedelima Leonard},
+         giveni={T\bibinithyphendelim K\bibinitperiod\bibinitdelim
+  L\bibinitperiod},
+      }}%
+      {{hash=CRT}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Ricky\bibnamedelima TQ},
+         giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=DD}{%
+         family={Duvenaud},
+         familyi={D\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {PMLR}%
+    }
+    \strng{namehash}{LX+1}
+    \strng{fullhash}{LXWTKLCRTDD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{International Conference on Artificial Intelligence and
+  Statistics}
+    \field{pages}{3870\bibrangedash 3882}
+    \field{title}{Scalable gradients for stochastic differential equations}
+    \field{year}{2020}
+  \endentry
+\enddatalist
+\endinput

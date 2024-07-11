@@ -1,0 +1,50 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{wangneural}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=WB}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Benjie},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=JJ}{%
+         family={Jennings},
+         familyi={J\bibinitperiod},
+         given={Joel},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GW}{%
+         family={Gong},
+         familyi={G\bibinitperiod},
+         given={Wenbo},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WBJJGW1}
+    \strng{fullhash}{WBJJGW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{ICLR}
+    \field{title}{Neural structure learning with stochastic differential equations}
+    \field{year}{2024}
+  \endentry
+\enddatalist
+\endinput

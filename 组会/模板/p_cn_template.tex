@@ -1,0 +1,112 @@
+\documentclass{beamer}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{fontspec, xltxtra,xunicode}
+\usepackage[UTF8,noindent]{ctex}
+\usepackage{bbm}
+\usepackage{color}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{mathspec}
+\mode<presentation> {
+\usetheme{Madrid}
+}
+\usefonttheme{professionalfonts}
+\usepackage{times}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{subfigure}
+\usepackage[backend=bibtex,sorting=none]{biblatex}
+\usepackage{tikz}
+\setbeamerfont{section in toc}{shape=\itshape,family=\rmfamily}
+\setbeamerfont{footline}{shape=\itshape,family=\rmfamily}
+\setbeamerfont{title}{shape=\itshape,family=\rmfamily}
+\setbeamerfont{author}{shape=\itshape,family=\rmfamily}
+\setbeamerfont{institute}{shape=\itshape,family=\rmfamily}
+\setbeamerfont{date}{shape=\itshape,family=\rmfamily}
+\setbeamerfont{frametitle}{shape=\itshape,family=\rmfamily}
+\setbeamerfont{block title}{shape=\itshape,family=\rmfamily}
+\setbeamerfont{block body}{shape=\itshape,family=\rmfamily}
+\setbeamerfont{footnote}{shape=\itshape,family=\rmfamily}
+
+\usebackgroundtemplate{
+    \begin{tikzpicture}
+    \useasboundingbox (0,0) rectangle (\paperwidth,\paperheight);
+    \node[at=(current page.center), inner sep=0pt, opacity=0.8] {\includegraphics[width=\paperwidth,height=\paperheight]{../../pics/xjtu_draw.png}};
+    \end{tikzpicture}
+}
+\definecolor{darkblue}{RGB}{10,80,152}
+\definecolor{deepblue}{RGB}{181,203,223}
+\definecolor{plainblue}{RGB}{228,235,245}
+\setbeamercolor{block body}{bg=plainblue}
+\setbeamercolor{block title}{fg=darkblue,bg=deepblue}
+\linespread{1.2}
+\setbeamertemplate{frametitle}
+{
+    \vspace{-14pt} % 减少顶部间距
+    \nointerlineskip % 删除额外的行间距
+    \begin{beamercolorbox}[wd=\paperwidth,ht=2.2em,dp=0.5em,leftskip=8pt,rightskip=0pt]{frametitle} % 调整高度参数
+    \usebeamerfont{frametitle}\strut\insertframetitle\strut
+    \end{beamercolorbox}
+    \vspace{-6pt} % 减少底部间距
+}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+% \footnote[frame]{\fullcite{wangneural}}
+\title[Structure Learning with SDE]{\huge 基于随机微分方程的结构学习\footnote[frame]{\fullcite{wangneural}}}
+\subtitle{\large  \rightline{时间序列因果学习的连续建模方法}} % The short title appears at the bottom of every slide, the full title is only on the title page
+
+\author[王一丁]{王一丁} % Your name
+\vspace{1em}
+\date{2024年7月8日} % Date, can be changed to a custom date
+
+
+
+\addbibresource{refs.bib} %BibTeX数据文件及位置
+\setbeamerfont{footnote}{size=\tiny}
+
+\begin{document}
+\itshape
+\rmfamily
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+
+\end{frame}
+
+
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{目录}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+\AtBeginSubsubsection[]
+{
+  \begin{frame}
+    \frametitle{目录}
+    \tableofcontents[currentsection,currentsubsection,currentsubsubsection]
+  \end{frame}
+}
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+\section{绪论} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+%------------------------------------------------
+\begin{frame}
+  \frametitle{参考文献}
+  \printbibliography
+\end{frame}
+
+\begin{frame}
+\Huge{\centerline{谢谢!}}
+\end{frame}
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
